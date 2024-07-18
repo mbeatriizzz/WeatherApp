@@ -1,14 +1,12 @@
 import React from 'react';
+import Sidebar from './components/sidebar';
 
 function App() {
   return (
-    <div className="App">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-12">
-            <h1 className="text-center mt-5">This is a Weather App. Font: Trust!</h1>
-          </div>
-        </div>
+    <div className="App d-flex">
+      <Sidebar />
+      <div className="container-fluid">
+        <h1>Main Content</h1>
       </div>
     </div>
   );
